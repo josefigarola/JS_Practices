@@ -35,3 +35,47 @@ body {
     /* Centering the text content inside the card */
     text-align: center;
 }
+
+/* Styling for the search container */
+.search {
+    /* Take up the full width of its parent container */
+    width: 100%;
+    
+    /* Display its children elements in a row with equal space between them */
+    display: flex;
+    
+    /* Vertically align the content to the center of the container */
+    align-items: center;
+    
+    /* Add space between its children elements */
+    justify-content: space-between;
+}
+
+/* Styling for the search input field */
+.search input {
+    /* Remove the border and outline styles */
+    border: 0;
+    outline: 0;
+    
+    /* Set a light background color */
+    background: #ebfffc;
+    
+    /* Set the text color to a medium gray */
+    color: #555;
+    
+    /* Add padding on the top and bottom and on the left and right */
+    padding: 10px 25px;
+    
+    /* Set a fixed height for the input field */
+    height: 60px;
+    
+    /* Add rounded corners to the input field */
+    border-radius: 30px;
+
+    /* Add margin to the right of the element */
+    margin-right: 16px;
+
+    /* Set the font size to 18 pixels */
+    font-size: 18px;
+
+}

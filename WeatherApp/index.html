@@ -51,18 +51,35 @@
         </div>
 
         <script>
+            // API from OpenWeatherMap
             const API_KEY = '01fe59b09739597844242bbd54057d8f';
-            const API_URL = 'https://api.openweathermap.org/data/2.5/weather?units=metric&q=zapopan'
-            async function getWeather() {
-                const response = await fetch(API_URL + '&appid=' + API_KEY);
+            const API_URL = 'https://api.openweathermap.org/data/2.5/weather?units=metric'
+
+            // Get the weather from the search input
+            const SearchBox = document.querySelector('.search input');
+            const SearchBtn = document.querySelector('.search button');
+
+            // Use the enter key to search
+            async function getWeather(city = 'New York') {
+                const response = await fetch(API_URL + '&appid=' + API_KEY + '&q=' + city);
+                // Read from the json
                 var data = await response.json();
                 console.log(data); 
+                // Change the data in the HTML to display
                 document.querySelector('.city').innerHTML = data.name;
-                document.querySelector('.temp').innerHTML = Math.round(main.temp) + '°C';
+                document.querySelector('.temp').innerHTML = Math.round(data.main.temp) + '°C';
                 document.querySelector('.humidity').innerHTML = data.main.humidity + '%';
                 document.querySelector('.wind').innerHTML = data.wind.speed + 'km/h';
             }
-            getWeather();
+            // Get the weather from the search input when it is clicked
+            SearchBtn.addEventListener('click', () => {
+                getWeather(SearchBox.value);
+            });
+            SearchBox.addEventListener('keyup', (event) => {
+                if (event.key === 'Enter') {
+                    getWeather(SearchBox.value);
+                }
+            });
         </script>
 
     </body>

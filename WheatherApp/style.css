@@ -16,22 +16,16 @@ body {
     /* Setting the card width to 90% of the parent container or a maximum of 470px */
     width: 90%;
     max-width: 470px;
-    
     /* Creating a linear gradient background for the card */
     background: linear-gradient(135deg, #00feba, #5b548a);
-    
     /* Setting text color to white for better readability on the gradient background */
     color: #fff;
-    
     /* Centering the card horizontally and adding margin at the top */
     margin: 100px auto 0;
-    
     /* Adding rounded corners to the card */
     border-radius: 20px;
-    
     /* Adding padding inside the card for spacing */
     padding: 40px 35px;
-    
     /* Centering the text content inside the card */
     text-align: center;
 }
@@ -40,13 +34,10 @@ body {
 .search {
     /* Take up the full width of its parent container */
     width: 100%;
-    
     /* Display its children elements in a row with equal space between them */
     display: flex;
-    
     /* Vertically align the content to the center of the container */
     align-items: center;
-    
     /* Add space between its children elements */
     justify-content: space-between;
 }
@@ -56,26 +47,33 @@ body {
     /* Remove the border and outline styles */
     border: 0;
     outline: 0;
-    
     /* Set a light background color */
     background: #ebfffc;
-    
     /* Set the text color to a medium gray */
     color: #555;
-    
     /* Add padding on the top and bottom and on the left and right */
     padding: 10px 25px;
-    
     /* Set a fixed height for the input field */
     height: 60px;
-    
     /* Add rounded corners to the input field */
     border-radius: 30px;
-
     /* Add margin to the right of the element */
     margin-right: 16px;
-
     /* Set the font size to 18 pixels */
     font-size: 18px;
 
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.search button img{
+    width: 16px;
 }

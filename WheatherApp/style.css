@@ -1,10 +1,37 @@
-*{
+/* Resetting default margin, padding, font-family, and box-sizing for all elements */
+* {
     margin: 0;
     padding: 0;
     font-family: 'Popping', sans-serif;
     box-sizing: border-box;
 }
 
+/* Setting a dark background color for the entire body */
 body {
     background-color: #222;
+}
+
+/* Styling for a card element */
+.card {
+    /* Setting the card width to 90% of the parent container or a maximum of 470px */
+    width: 90%;
+    max-width: 470px;
+    
+    /* Creating a linear gradient background for the card */
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    
+    /* Setting text color to white for better readability on the gradient background */
+    color: #fff;
+    
+    /* Centering the card horizontally and adding margin at the top */
+    margin: 100px auto 0;
+    
+    /* Adding rounded corners to the card */
+    border-radius: 20px;
+    
+    /* Adding padding inside the card for spacing */
+    padding: 40px 35px;
+    
+    /* Centering the text content inside the card */
+    text-align: center;
 }

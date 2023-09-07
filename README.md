@@ -14,4 +14,4 @@ A simple web application to check the weather for a specific city.
 
 ## Demo
 
-![Weather App Screenshot](WeatherApp\images\Demo.png)
+![Weather App Screenshot](WeatherApp/images/Demo.png)

@@ -26,7 +26,7 @@ A simple to-do list web application that allows you to keep track of your tasks.
 - Remove tasks from the list.
 - Tasks are stored in your browser's local storage for persistence.
 
-## To-Do List App Demop
+## To-Do List App Demo
 <p align="center">
   <img src="/ToDoListApp/images/Demo.png" alt="To-Do List App Screenshot">
 </p>

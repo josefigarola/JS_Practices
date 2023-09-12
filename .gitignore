@@ -1,9 +1,1 @@
-# Ignore compiled files
-*.pyc
-*.class
-
-# Ignore log files
-*.log
-
-# Ignore a specific directory
-WeatherApp\secret.txt
+WeatherApp/secret.txt

@@ -22,7 +22,7 @@ const questions = [
         answers: [
             { text: 'Venice', correct: false },
             { text: 'Milan', correct: false },
-            { text: 'Roma', correct: true },
+            { text: 'Rome', correct: true },
             { text: 'Naples', correct: false }
         ]
     },
@@ -146,27 +146,29 @@ function showQuestion(){
         if(answer.correct){
             button.dataset.correct = answer.correct;
         }
-        button.addEventListener('click', selectAnswer);
+        button.addEventListener('click', () => {
+            selectAnswer(button);
+        });
     });
 }
 
 function resetState(){
-    nextButton.style.display = 'None'
+    nextButton.style.display = 'none';
     while(answerButtons.firstChild){
         answerButtons.removeChild(answerButtons.firstChild);
     }
 }
 
-function selectAnswer(){
-    const selectedBtn  = event.target;
+function selectAnswer(selectedBtn){
     const isCorrect = selectedBtn.dataset.correct === 'true';
     if(isCorrect){
         selectedBtn.classList.add('correct');
+        score++;
     }else{
         selectedBtn.classList.add('incorrect');
     }
     Array.from(answerButtons.children).forEach(button => {
-        if(button.dataset.correct  === 'true'){
+        if(button.dataset.correct === 'true'){
             button.classList.add('correct');
         }
         button.disabled = true;
@@ -174,5 +176,30 @@ function selectAnswer(){
     nextButton.style.display = 'block';
 }
 
+function showScore(){
+    resetState();
+    questionElement.innerHTML = 'Your Score: ' + score + '/' + questions.length;
+    nextButton.innerHTML = 'Restart';
+    nextButton.style.display = 'block';
+}
+
+function handleNextButton(){
+    currentQuestionIndex++;
+    if(currentQuestionIndex < questions.length){
+        showQuestion();
+    }
+    else{
+        showScore();
+    }
+}
+
+nextButton.addEventListener('click', () => {
+    if(currentQuestionIndex < questions.length){
+        handleNextButton();
+    }
+    else{
+        startQuiz();
+    }
+});
 
 startQuiz();

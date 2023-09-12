@@ -45,9 +45,9 @@ A quiz application that tests your knowledge on various topics. Answer a series 
 <!-- Centered Screenshots Container -->
 <div align="center">
   <!-- First Screenshot -->
-  <img src="/QuizApp/images/demo1.png" alt="Screenshot 1" width="300" height="200">
+  <img src="QuizzApp\images\demo1.png" alt="Screenshot 1" width="300" height="200">
   <!-- Second Screenshot -->
-  <img src="/QuizApp/images/demo2.png" alt="Screenshot 2" width="300" height="200">
+  <img src="QuizzApp\images\demo2.png" alt="Screenshot 2" width="300" height="200">
 </div>
 
 ## Usage

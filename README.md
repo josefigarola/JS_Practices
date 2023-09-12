@@ -30,3 +30,28 @@ A simple to-do list web application that allows you to keep track of your tasks.
 <p align="center">
   <img src="/ToDoListApp/images/Demo.png" alt="To-Do List App Screenshot">
 </p>
+
+# Quiz App
+
+A quiz application that tests your knowledge on various topics. Answer a series of multiple-choice questions and see how well you perform. Your score is calculated at the end of the quiz.
+
+## Features
+
+- Answer a set of multiple-choice questions.
+- See your score at the end of the quiz.
+- Restart the quiz to try again.
+
+## Quiz App Demo
+<!-- Centered Screenshots Container -->
+<div align="center">
+  <!-- First Screenshot -->
+  <img src="/QuizApp/images/demo1.png" alt="Screenshot 1" width="300" height="200">
+  <!-- Second Screenshot -->
+  <img src="/QuizApp/images/demo2.png" alt="Screenshot 2" width="300" height="200">
+</div>
+
+## Usage
+
+1. Answer each question by clicking on one of the multiple-choice options.
+2. Your score will be displayed at the end of the quiz.
+3. Click "Restart" to try the quiz again.

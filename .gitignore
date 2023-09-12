@@ -6,4 +6,4 @@
 *.log
 
 # Ignore a specific directory
-.txt
+WeatherApp\secret.txt

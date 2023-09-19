@@ -75,6 +75,7 @@ A simple web application that generates random passwords for you. You can custom
 - Customize password complexity by including uppercase letters, lowercase letters, numbers, and special symbols.
 - Copy generated passwords to the clipboard with a single click.
 
+## Random Password Generator App Demo
 <div align="center">
   <img src="/RandPasswordApp/images/demo.png" alt="Random Password Generator App Screenshot">
 </div>

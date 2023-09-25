@@ -1,4 +1,4 @@
-# Age Calculator App
+# <h1 align="center">Age Calculator App</h1>
 
 A simple JavaScript web application that calculates your age based on your date of birth. Enter your date of birth, and the app will display your age in years, months, and days.
 

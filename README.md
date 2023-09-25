@@ -29,6 +29,9 @@ A utility for generating strong random passwords. Users can customize the length
 
 A note-taking web application that allows users to create, edit, and delete notes. Notes are stored locally, ensuring they persist between sessions.
 
+### 6. **Age Calculator App**
+Calculates your age based on your date of birth. Enter your date of birth, and the app will display your age in years, months, and days.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

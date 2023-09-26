@@ -32,6 +32,9 @@ A note-taking web application that allows users to create, edit, and delete note
 ### 6. **Age Calculator App**
 Calculates your age based on your date of birth. Enter your date of birth, and the app will display your age in years, months, and days.
 
+### 7. **Random Quote Generator App**
+Generates random quotes and allows you to post them. Share your favorite quotes with the world!
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

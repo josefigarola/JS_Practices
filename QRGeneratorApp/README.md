@@ -21,7 +21,7 @@ A simple web application that allows you to generate QR codes from text or URLs.
 
 5. You can save or share the generated QR code as needed.
 
-## QR Code Generator App Screenshot
+## Demo
 
 <p align="center">
   <img src="images/demo.png" alt="QR Code Generator App Screenshot">

@@ -35,6 +35,10 @@ Calculates your age based on your date of birth. Enter your date of birth, and t
 ### 7. **Random Quote Generator App**
 Generates random quotes and allows you to post them. Share your favorite quotes with the world!
 
+### 8. **QR Code Generator App**
+
+Generate QR codes from text or URLs. You can enter the text or URL, click the "Generate QR code" button, and the app will display the QR code image.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

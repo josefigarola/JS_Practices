@@ -39,6 +39,10 @@ Generates random quotes and allows you to post them. Share your favorite quotes 
 
 Generate QR codes from text or URLs. You can enter the text or URL, click the "Generate QR code" button, and the app will display the QR code image.
 
+### 9. **Toast Notification App**
+
+Sisplay toast notifications for success, error, and invalid input messages. These notifications provide quick feedback to the user and automatically disappear after a few seconds.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

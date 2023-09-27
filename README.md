@@ -41,7 +41,7 @@ Generate QR codes from text or URLs. You can enter the text or URL, click the "G
 
 ### 9. **Toast Notification App**
 
-Sisplay toast notifications for success, error, and invalid input messages. These notifications provide quick feedback to the user and automatically disappear after a few seconds.
+Display toast notifications for success, error, and invalid input messages. These notifications provide quick feedback to the user and automatically disappear after a few seconds.
 
 ## Getting Started
 

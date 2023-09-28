@@ -1,6 +1,6 @@
 # <h1 align='center'>Music Player App</h1>
 
-A simple web-based music player application that allows you to play your favorite music tracks. You can control playback, adjust the volume, and enjoy your music collection with this user-friendly app.
+A simple web-based music player application that allows you to play your favorite music tracks.
 
 ## Features
 

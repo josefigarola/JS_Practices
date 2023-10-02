@@ -46,6 +46,9 @@ Display toast notifications for success, error, and invalid input messages. Thes
 ### 10. **Music Player App**
 A simple web-based music player application that allows you to play your favorite music tracks.
 
+### 11. **Stopwatch App**
+Measure elapsed time precisely. You can start, stop, and reset the stopwatch to track time as needed.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

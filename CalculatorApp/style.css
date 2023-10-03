@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    background-color: #add3f0;
+    
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #add3f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    background: #3a4452;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.model {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 20px;
+}
+
+.model h1{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.model h2{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Courier Prime', monospace;
+}
+
+.id{
+    color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    color: #ad4d4d;
+    font-family: 'Share Tech Mono', monospace;
+    height: 5px;
+}
+
+.calculator form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    background: #827b57;
+    color: #3a4452;
+}
+
+form input.equal{
+    width: 145px;
+    background: #ff9a00;
+    color: #fff;
+}
+
+form input.ac{
+    background: #ad4d4d;
+    color: #fff;
+}
+
+form input.del{
+    background: #ad4d4d;
+    color: #fff;
+}
+
+form input.operator{
+    background: #505e72;
+}

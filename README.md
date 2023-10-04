@@ -53,7 +53,10 @@ Measure elapsed time precisely. You can start, stop, and reset the stopwatch to 
 A simple web-based calculator application that allows you to perform basic arithmetic operations. You can add, subtract, multiply, and divide numbers with this user-friendly calculator.
 
 ### 13. [Popup App](PopUpApp)
-displays a message when the "Submit" button is clicked. This app demonstrates how to create a popup and use transitions for a smooth user experience.
+Displays a message when the "Submit" button is clicked. This app demonstrates how to create a popup and use transitions for a smooth user experience.
+
+### 14. [Hide and Show Password](HideShowPassword)
+Allows users to toggle the visibility of a password field. Users can hide or show the password they enter in the input field.
 
 ## Getting Started
 

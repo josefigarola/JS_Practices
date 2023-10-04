@@ -18,6 +18,6 @@ A simple web application that allows users to toggle the visibility of a passwor
 ## Demo
 
 <p align="center">
-  <img src="images/demo1.png" alt="Password Hidden" width="300">
-  <img src="images/demo2.png" alt="Password Shown" width="300">
+  <img src="images/demo1.png" alt="Password Hidden" width="400">
+  <img src="images/demo2.png" alt="Password Shown" width="400">
 </p>

@@ -52,6 +52,9 @@ Measure elapsed time precisely. You can start, stop, and reset the stopwatch to 
 ### 12. **Calculator App**
 A simple web-based calculator application that allows you to perform basic arithmetic operations. You can add, subtract, multiply, and divide numbers with this user-friendly calculator.
 
+### 13. **Popup App**
+displays a message when the "Submit" button is clicked. This app demonstrates how to create a popup and use transitions for a smooth user experience.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

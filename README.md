@@ -9,7 +9,7 @@ The main purpose of this repository is to:
 - Offer code snippets and templates that can be reused in your own projects.
 - Share knowledge and ideas within the programming community.
 
-### 1. **Weather App**
+### 1. [**Weather App**]{WeatherApp}
 
 A web application that provides real-time weather information for cities around the world. Users can enter a city name, and the app fetches weather data from an API and displays it on the screen.
 

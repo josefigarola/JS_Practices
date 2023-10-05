@@ -1,5 +1,24 @@
-# <h1 align="center">Templates</h1>
+# <h1 align="center">Dark Mode App</h1>
 
-Both scripts are templates for the index HTML file and the plain CSS file.
-This templates were creared in order to be able to be used for other apps.
-The intention is to copy and paste templates and begin coding.
+A simple web application that allows users to switch between light and dark modes for improved readability and user experience.
+
+## Features
+
+- Toggle between light and dark modes.
+- Stylish and responsive user interface.
+- Transitions within the interface.
+
+## Usage
+
+1. Open the app in your web browser.
+
+2. Click the "Dark" button in the navigation menu to enable dark mode.
+
+3. Click the "Light" button to switch back to light mode.
+
+## Demo
+
+<p align="center">
+  <img src="images/demo1.png" alt="Light Mode Screenshot">
+  <img src="images/demo2.png" alt="Dark Mode Screenshot">
+</p>

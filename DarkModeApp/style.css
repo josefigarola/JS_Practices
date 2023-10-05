@@ -5,6 +5,13 @@
     box-sizing: border-box;
 }
 
+:root{
+    --background-color: #fff;
+    --text-color: #555;
+    --title-color: #000;
+}
+
 body {
-    background-color: #222;
+    background-color: var(--background-color);
+    color: var(--text-color);
 }

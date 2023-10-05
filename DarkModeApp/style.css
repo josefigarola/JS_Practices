@@ -11,15 +11,22 @@
     --title-color: #000;
 }
 
+.dark-theme{
+    --background-color: #000;
+    --text-color: #999;
+    --title-color: #fff; 
+}
+
 body {
     background-color: var(--background-color);
     color: var(--text-color);
+    transition: background 0.8s, color 0.8s;
 }
 
-header{
+.header{
     width: 100%;
     min-height: 100vh;
-    padding: 0 8%;
+    padding: 0 8px;
     position: relative;
     overflow: hidden;
 }
@@ -51,4 +58,95 @@ nav ul li a{
     text-decoration: none;
     color: var(--text-color);
     font-weight: 500;
+}
+
+.toggle-btn{
+    background: #4864ff;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.toggle-btn img{
+    width: 25px;
+    margin-left: 10px;
+}
+
+.content{
+    margin-top: 10%;
+    max-width: 600px;
+}
+
+.content h1{
+    font-size: 80px;
+    font-family: serif;
+    color: var(--title-color);
+    font-weight: 600;
+}
+
+.content h1 span{
+    font-family: serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.content a{
+    background: #4864ff;
+    color: #fff;
+    padding: 15px 70px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.image-box{
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+}
+
+.image-box img{
+    width: 500px;
+    display: block;
+}
+
+.pattern{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    display: flex;
+    transform: rotate(40deg);
+    z-index: -1;
+}
+
+.pattern img{
+    width: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: move 1s infinite alternate-reverse;
+    animation-delay: 1.5s;
+}
+
+.pattern img:nth-child(1){
+    transform: rotate(-45deg) translate(-70px, -50px);
+}
+
+.pattern img:nth-child(2){
+    transform: rotate(65deg) translate(0px, -40px) scale(0.8);
+}
+
+@keyframes move{
+    100%{
+        margin-left: 40px;
+        margin-top: 20px;
+        opacity: 0.3;
+    }
 }

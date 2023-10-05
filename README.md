@@ -58,6 +58,9 @@ Displays a message when the "Submit" button is clicked. This app demonstrates ho
 ### 14. [Hide and Show Password](HideShowPassword)
 Allows users to toggle the visibility of a password field. Users can hide or show the password they enter in the input field.
 
+### 15. [Dark Mode](DarkModeApp)
+A simple web application that allows users to switch between light and dark modes for improved readability and user experience.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

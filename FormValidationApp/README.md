@@ -25,5 +25,5 @@ A simple web application that validates user input in a form, ensuring that the 
 ## Demo
 
 <p align="center">
-  <img src="images/demo1.png" alt="Demo Screenshot">
+  <img src="images/demo.png" alt="Demo Screenshot">
 </p>

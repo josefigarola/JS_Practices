@@ -61,6 +61,13 @@ Allows users to toggle the visibility of a password field. Users can hide or sho
 ### 15. [Dark Mode](DarkModeApp)
 A simple web application that allows users to switch between light and dark modes for improved readability and user experience.
 
+### 16. [Form Validation](FormValidationApp)
+A simple web application that validates user input in a form, ensuring that the provided data meets specific criteria.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.
+
+## Credits
+Huge thanks to GreatStack for this tutorials.
+[Youtube Link](https://www.youtube.com/@GreatStackDev)

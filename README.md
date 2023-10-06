@@ -67,6 +67,9 @@ A simple web application that validates user input in a form, ensuring that the 
 ### 17. [Image Gallery](ImageGalleryApp)
 A web application that allows users to browse and view a collection of images in an interactive gallery.
 
+### 18. [Email Subscription](EmailSubscriptionApp)
+A web application that allows users to subscribe to your brand new website and receive updates via email.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

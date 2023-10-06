@@ -64,6 +64,9 @@ A simple web application that allows users to switch between light and dark mode
 ### 16. [Form Validation](FormValidationApp)
 A simple web application that validates user input in a form, ensuring that the provided data meets specific criteria.
 
+### 17. [Image Gallery](ImageGalleryApp)
+A web application that allows users to browse and view a collection of images in an interactive gallery.
+
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.

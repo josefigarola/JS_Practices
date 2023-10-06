@@ -27,5 +27,5 @@ A web application that allows users to subscribe to your brand new website and r
 
 <p align="center">
   <img src="images/demo1.png" alt="Demo 1 Screenshot">
-  <img src="images/demo3.png" alt="Demo 2 Screenshot">
+  <img src="images/demo2.png" alt="Demo 2 Screenshot">
 </p>

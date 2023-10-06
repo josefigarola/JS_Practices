@@ -9,6 +9,10 @@ The main purpose of this repository is to:
 - Offer code snippets and templates that can be reused in your own projects.
 - Share knowledge and ideas within the programming community.
 
+## Getting Started
+
+To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.
+
 ### 1. [Weather App](WeatherApp)
 
 A web application that provides real-time weather information for cities around the world. Users can enter a city name, and the app fetches weather data from an API and displays it on the screen.
@@ -69,10 +73,6 @@ A web application that allows users to browse and view a collection of images in
 
 ### 18. [Email Subscription](EmailSubscriptionApp)
 A web application that allows users to subscribe to your brand new website and receive updates via email.
-
-## Getting Started
-
-To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.
 
 ## Credits
 Huge thanks to GreatStack for this tutorials.

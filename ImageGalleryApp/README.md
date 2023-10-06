@@ -1,5 +1,25 @@
-# <h1 align="center">Templates</h1>
+# <h1 align="center">Image Gallery App</h1>
 
-Both scripts are templates for the index HTML file and the plain CSS file.
-This templates were creared in order to be able to be used for other apps.
-The intention is to copy and paste templates and begin coding.
+A web application that allows users to browse and view a collection of images in an interactive gallery.
+
+## Features
+
+- Browse through a collection of images.
+- View images in full size.
+- Navigate between images using previous and next buttons.
+
+## Usage
+
+1. Open the app in your web browser.
+
+2. Explore the image gallery by scrolling horizontally.
+
+3. Click on an image to view it in full size.
+
+4. Use the "Previous" and "Next" buttons to navigate between images.
+
+## Demo
+
+<p align="center">
+  <img src="images/demo.png" alt="Demo Screenshot">
+</p>

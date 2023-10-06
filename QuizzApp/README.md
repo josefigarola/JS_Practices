@@ -18,7 +18,7 @@ A quiz application that tests your knowledge on various topics. Answer a series 
 <!-- Centered Screenshots Container -->
 <div align="center">
   <!-- First Screenshot -->
-  <img src="QuizzApp\images\demo1.png" alt="Screenshot 1" width="400" height="500">
+  <img src="images\demo1.png" alt="Screenshot 1" width="400" height="500">
   <!-- Second Screenshot -->
-  <img src="QuizzApp\images\demo2.png" alt="Screenshot 2" width="400" height="500">
+  <img src="images\demo2.png" alt="Screenshot 2" width="400" height="500">
 </div>

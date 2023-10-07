@@ -74,6 +74,9 @@ A web application that allows users to browse and view a collection of images in
 ### 18. [Email Subscription](EmailSubscriptionApp)
 A web application that allows users to subscribe to your brand new website and receive updates via email.
 
+### 19. [Password Strength](PasswordStrengthApp)
+A simple web application that assesses the strength of a password and provides real-time feedback to help users create stronger passwords.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

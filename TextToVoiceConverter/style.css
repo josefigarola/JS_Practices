@@ -90,5 +90,6 @@ body{
         background-size: 15px;
         background-position-x: calc(100% - 20px);
         background-position-y: center;
+        cursor: pointer;
     }
 }

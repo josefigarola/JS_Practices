@@ -77,7 +77,7 @@ A web application that allows users to subscribe to your brand new website and r
 ### 19. [Password Strength](PasswordStrengthApp)
 A simple web application that assesses the strength of a password and provides real-time feedback to help users create stronger passwords.
 
-### 20. [Text To Voice Converter](TextToVoiceConverterApp)
+### 20. [Text To Voice Converter](TextToVoiceConverter)
 Convert text input into speech using text-to-speech technology, providing users with audio playback of their text content.
 
 ## Credits

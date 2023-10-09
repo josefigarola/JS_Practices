@@ -83,6 +83,9 @@ Convert text input into speech using text-to-speech technology, providing users 
 ### 21. [Coming Soon Page](ComingSoonPage)
 Displays a "Coming Soon" page with a countdown timer to the launch date.
 
+### 22. [Background Effect](BackgroundEffect)
+A simple web application that creates an interactive background effect with a resizable image.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

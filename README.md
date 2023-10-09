@@ -80,6 +80,9 @@ A simple web application that assesses the strength of a password and provides r
 ### 20. [Text To Voice Converter](TextToVoiceConverter)
 Convert text input into speech using text-to-speech technology, providing users with audio playback of their text content.
 
+### 21. [Coming Soon Page](ComingSoonPage)
+Displays a "Coming Soon" page with a countdown timer to the launch date.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

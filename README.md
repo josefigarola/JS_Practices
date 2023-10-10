@@ -93,6 +93,9 @@ A simple web application that displays the current date and time in a calendar f
 ### 24. [Select Menu](SelectMenu)
 A simple web application that allows users to select a social media platform from a dropdown menu.
 
+### 25. [Circular Progress Bar](CircularProgressBar)
+A simple web application that displays a circular progress bar.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

@@ -21,11 +21,3 @@ A simple web application that displays a circular progress bar.
 <p align="center">
   <img src="images/demo.png" alt="Demo Screenshot">
 </p>
-
-## Author
-
-- [Your Name]
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

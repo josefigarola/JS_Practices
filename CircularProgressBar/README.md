@@ -19,7 +19,7 @@ A simple web application that displays a circular progress bar.
 ## Demo
 
 <p align="center">
-  <img src="demo.png" alt="Demo Screenshot">
+  <img src="images/demo.png" alt="Demo Screenshot">
 </p>
 
 ## Author

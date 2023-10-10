@@ -89,6 +89,9 @@ A simple web application that creates an interactive background effect with a re
 ### 23. [Calendar App](CalendarApp)
 A simple web application that displays the current date and time in a calendar format.
 
+### 24. [Select Menu](SelectMenu)
+A simple web application that allows users to select a social media platform from a dropdown menu.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

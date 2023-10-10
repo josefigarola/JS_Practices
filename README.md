@@ -86,6 +86,9 @@ Displays a "Coming Soon" page with a countdown timer to the launch date.
 ### 22. [Background Effect](BackgroundEffect)
 A simple web application that creates an interactive background effect with a resizable image.
 
+### 23. [Calendar App](CalendarApp)
+A simple web application that displays the current date and time in a calendar format.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

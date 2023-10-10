@@ -12,6 +12,7 @@ The main purpose of this repository is to:
 ## Getting Started
 
 To explore a specific project or code example, navigate to its respective directory within this repository. Each project typically includes its own README file with detailed instructions on how to run or use the application.
+[Templates](templates) folder is available where you can find .js, .html and .css files for your projects.
 
 ### 1. [Weather App](WeatherApp)
 

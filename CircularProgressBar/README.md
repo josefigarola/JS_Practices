@@ -1,5 +1,31 @@
-# <h1 align="center">Templates</h1>
+<h1 align="center">Circular Progress Bar App</h1>
 
-Both scripts are templates for the index HTML file and the plain CSS file.
-This templates were creared in order to be able to be used for other apps.
-The intention is to copy and paste templates and begin coding.
+A simple web application that displays a circular progress bar.
+
+## Features
+
+- Animated circular progress bar.
+- Dynamic percentage display.
+- Stylish and responsive user interface.
+
+## Usage
+
+1. Open the app in your web browser.
+
+2. Watch as the circular progress bar fills up with an animated effect.
+
+3. The percentage of progress is displayed in the center of the circle.
+
+## Demo
+
+<p align="center">
+  <img src="demo.png" alt="Demo Screenshot">
+</p>
+
+## Author
+
+- [Your Name]
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

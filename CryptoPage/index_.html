@@ -3,13 +3,16 @@
     <head>
         <meta charset='utf-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-        <title>Title App</title>
+        <title>Cryptocurrency Page App</title>
         <link rel='stylesheet' href='style.css'>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     </head>
 </html>
 
 <body>
     <div class="container">
+        
+        <!-- Headers -->
         <nav>
             <img src="images/logo.png" class="logo">
             <ul>
@@ -20,9 +23,48 @@
             </ul>
             <a href="#" class="btn">EN</a>
         </nav>
+
+        <!-- General content -->
+        <div class="content">
+            <h1>BUY & <br>SELL <span>Crypto</span></h1>
+            <p>
+                World's biggest Cryptocurrency exchange available on web, <br>
+                as well on mobile phone.
+            </p>
+            <a href="#" class="btn">EXPLORE MORE</a>
+        </div>
+
+        <!-- Coin list -->
+        <div class="coin-list">
+
+            <!-- Coin information -->
+            <div class="coin">
+                <img src="images/bitcoin.png">
+                <div>
+                    <h3><span id="bitcoin"></span></h3>
+                    <p>Bitcoin</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/ethereum.png">
+                <div>
+                    <h3><span id="ethereum"></span></h3>
+                    <p>Ethereum</p>
+                </div>
+            </div>
+            <div class="coin">
+                <img src="images/dogecoin.png">
+                <div>
+                    <h3><span id="dogecoin"></span></h3>
+                    <p>Dogecoin</p>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 </body>
 
-<script></script>
+<script src="script.js"></script>
 
 </html>

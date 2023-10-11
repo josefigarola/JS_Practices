@@ -99,6 +99,9 @@ A simple web application that displays a circular progress bar.
 ### 26. [Product Page](ProductPage)
 A web application for showcasing and purchasing a product with details like name, price, description, size, color, and quantity selection.
 
+### 27. [Cryptocurrency Page](CryptoPage)
+A web application that provides information about various cryptocurrencies, allowing users to explore the cryptocurrency market.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

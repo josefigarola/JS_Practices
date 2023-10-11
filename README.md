@@ -96,6 +96,9 @@ A simple web application that allows users to select a social media platform fro
 ### 25. [Circular Progress Bar](CircularProgressBar)
 A simple web application that displays a circular progress bar.
 
+### 26. [Product Page](ProductPage)
+A web application for showcasing and purchasing a product with details like name, price, description, size, color, and quantity selection.
+
 ## Credits
 Huge thanks to GreatStack for this tutorials.
 [Youtube Link](https://www.youtube.com/@GreatStackDev)

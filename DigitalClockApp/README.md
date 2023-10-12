@@ -19,5 +19,5 @@ A simple web application that displays a digital clock on a stylish and animated
 ## Demo
 
 <p align="center">
-  <img src="screenshots/digital_clock.png" alt="Digital Clock Screenshot">
+  <img src="images/demo.png" alt="Digital Clock Screenshot">
 </p>

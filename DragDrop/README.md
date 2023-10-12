@@ -14,6 +14,8 @@ A simple web application that demonstrates drag and drop functionality.
 
 - Drag and drop items from the left container to the right container.
 
+## Demo
+
 <p align="center">
   <img src="images/demo.png" alt="Demo">
 </p>

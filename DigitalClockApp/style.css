@@ -33,30 +33,56 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        backdrop-filter: blur(40px);
+        backdrop-filter: blur(10px);
+    
+        & span{
+            font-size: 80px;
+            width: 100px;
+            display: inline-block;
+            text-align: center;
+            position: relative;
+    
+            &::after{
+                font-size: 16px;
+                position: absolute;
+                bottom: -20px;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+    
+            &#hrs::after{
+                content: 'HOURS';
+            }
+            &#min::after{
+                content: 'MINS';
+            }
+            &#sec::after{
+                content: 'SEC';
+            }
+        }
     }
-}
 
-.container::before{
-    content: '';
-    width: 180px;
-    height: 180px;
-    background: #f41b75;
-    border-radius: 5px;
-    position: absolute;
-    left: -50px;
-    top: -50px;
-    z-index: 1;
-}
-
-.container::after{
-    content: '';
-    width: 180px;
-    height: 180px;
-    background: #419aff;
-    border-radius: 50%;
-    position: absolute;
-    right: -30px;
-    bottom: -50px;
-    z-index: 1;
+    &::before{
+        content: '';
+        width: 180px;
+        height: 180px;
+        background: #f41b75;
+        border-radius: 5px;
+        position: absolute;
+        left: -50px;
+        top: -50px;
+        z-index: 1;
+    }
+    
+    &::after{
+        content: '';
+        width: 180px;
+        height: 180px;
+        background: #419aff;
+        border-radius: 50%;
+        position: absolute;
+        right: -30px;
+        bottom: -50px;
+        z-index: 1;
+    }
 }

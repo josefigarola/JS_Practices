@@ -1,5 +1,19 @@
-# <h1 align="center">Templates</h1>
+# <h1 align="center">Drag & Drop App</h1>
 
-Both scripts are templates for the index HTML file and the plain CSS file.
-This templates were creared in order to be able to be used for other apps.
-The intention is to copy and paste templates and begin coding.
+A simple web application that demonstrates drag and drop functionality.
+
+## Usage
+
+1. Open the app in your web browser.
+
+2. You will see a list of items on the left side of the container, each with a drag-and-drop feature.
+
+3. You can drag any of the items and drop them into the right container.
+
+## Features
+
+- Drag and drop items from the left container to the right container.
+
+<p align="center">
+  <img src="images/demo.png" alt="Demo">
+</p>

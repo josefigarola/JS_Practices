@@ -32,7 +32,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    & #left, #rigth{
+    & #left, #right{
         width: 300px;
         min-height: 400px;
         margin: 20px;
